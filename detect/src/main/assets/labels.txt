@@ -1,0 +1,5 @@
+0 Bacterial-Blight
+1 Leaf-Blast
+2 Brown-spot
+3 Tungro
+4 Invalid

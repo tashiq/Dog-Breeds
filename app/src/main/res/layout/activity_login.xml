@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".login"
+    android:background="#6f8687">
+
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="#aded85"
+        android:textStyle="bold"
+        android:textSize="40sp"
+
+        />
+
+    <AutoCompleteTextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_text_backgound"
+        android:hint="ই-মেল"
+        android:completionThreshold="1"
+        android:completionHint="Already have"
+        android:padding="17dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_text_backgound"
+        android:hint="পাসওয়ার্ড"
+        android:padding="17dp" />
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      android:layout_gravity="center"
+        android:text="login"
+        android:textSize="20sp"
+        android:background="@drawable/button_style"
+        android:id="@+id/button"
+        android:backgroundTint="#aded85"
+        android:textColor="#aded85"
+
+       />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="forget password"
+        android:textSize="15sp"
+        android:id="@+id/forget"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Haven't registered?"
+        android:onClick="register"
+        android:layout_gravity="center"
+        tools:ignore="UsingOnClickInXml"
+        android:id="@+id/reg"
+        android:textSize="15sp"
+        />
+
+
+</LinearLayout>

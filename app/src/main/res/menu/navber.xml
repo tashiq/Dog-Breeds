@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:id="@+id/kk">
+        <item android:id="@+id/home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Dashboard"
+
+            />
+
+        <item android:id="@+id/realtime"
+            android:icon="@drawable/ic_baseline_timer_24"
+            android:title="Real Time"
+
+            />
+        <item android:id="@+id/soluton"
+            android:icon="@drawable/ic_baseline_sync_problem_24"
+            android:title="Solution"
+
+            />
+
+        <item android:id="@+id/messaging"
+            android:icon="@drawable/ic_baseline_message_24"
+            android:title="Post"
+
+            />
+
+        <item android:id="@+id/extra"
+            android:icon="@drawable/ic_baseline_extension_24"
+            android:title="Videos"
+
+            />
+        <item android:id="@+id/tutorial"
+            android:icon="@drawable/ic_baseline_assignment_24"
+            android:title="tutorial"
+
+            />
+    </group>
+<group android:id="@+id/About">
+
+        <item android:id="@+id/about"
+            android:icon="@drawable/ic_baseline_manage_accounts_24"
+            android:title="My Profile"
+            />
+    <item android:id="@+id/rate"
+        android:icon="@drawable/ic_baseline_star_rate_24"
+        android:title="Rate Us"
+        />
+        <item android:id="@+id/logout"
+            android:icon="@drawable/ic_baseline_login_24"
+            android:title="Logout"
+
+            />
+
+    </group>
+</menu>

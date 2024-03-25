@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "181184350867",
+    "project_id": "krishi-o-krishok-fdb19",
+    "storage_bucket": "krishi-o-krishok-fdb19.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181184350867:android:f809c010e97b2626319b66",
+        "android_client_info": {
+          "package_name": "com.example.DogBreeds"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "181184350867-nnmkcp7glhk96tb1m07u52unae8nj42v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwoDNo1FimZT-2lUEDEJkNOe5Z6jiDx1Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "181184350867-nnmkcp7glhk96tb1m07u52unae8nj42v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

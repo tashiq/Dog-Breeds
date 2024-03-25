@@ -1,0 +1,5 @@
+Bacterial-Blight
+Leaf-Blast
+Brown-spot
+Tungro
+Invalid

@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Dog Breeds</string>
+    <string name="open_drawer">open drawer</string>
+    <string name="close_drawer">close drawer</string>
+    <string name="copyright">/@copyright 2022</string>
+
+
+    <string-array name="zilla">
+        <item>Select</item>
+    </string-array>
+
+    <string-array name="thana">
+        <item>select Your Thana</item>
+    </string-array>
+
+    <string-array name="Bagerhat">
+        <item>select Your Thana</item>
+        <item>Amtal</item>
+        <item> Bamn</item>
+        <item> Barguna-</item>
+        <item> Betag</item>
+        <item> Patharghat</item>
+        <item> Taltali</item>
+    </string-array>
+
+    <string-array name="Barisal">
+        <item>select Your Thana</item>
+
+        <item>Agailjhara</item>
+        <item>Babuganj</item>
+        <item> Bakerganj</item>
+        <item> Banaripara</item>
+        <item> Barishal-S</item>
+        <item> Gouranadi</item>
+        <item> Hizla</item>
+        <item> Mehendiganj</item>
+        <item> Muladi</item>
+        <item> Uzirpur</item>
+
+    </string-array>
+
+    <string-array name="Rangpur">
+        <item>select Your Thana</item>
+
+        <item>Badarganj </item>
+        <item>Gangachara</item>
+        <item> Kaunia </item>
+        <item> Mithapukur </item>
+        <item> Pirgacha </item>
+        <item>  Pirganj</item>
+        <item>  Rangpur-S</item>
+        <item>  Taraganj</item>
+
+
+    </string-array>
+
+    <string-array name="Panchagarh">
+        <item>select Your Thana</item>
+
+        <item>Atwari</item>
+        <item> Boda </item>
+        <item>Debiganj </item>
+        <item> Panchagarh-S </item>
+        <item>Tetulia</item>
+
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

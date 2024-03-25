@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register_activity"
+    android:background="#5b756b"
+
+    >
+
+
+    <LinearLayout
+    android:padding="50dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_marginTop="-20dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/images_preview_rev_1"
+
+        />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_text_backgound"
+        android:hint="আপনার নাম"
+        android:padding="15dp"
+         android:id="@+id/name"
+        />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="মোবাইল নাম্বার"
+        android:background="@drawable/edit_text_backgound"
+        android:padding="15dp"
+        android:id="@+id/phone"
+        />
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_text_backgound"
+        android:hint="ই-মেল"
+        android:completionThreshold="1"
+        android:completionHint="Already have"
+        android:padding="15dp"
+        android:id="@+id/email"
+        android:textColor="@color/white"
+        />
+
+    <Spinner
+        android:layout_marginTop="20dp"
+        android:id="@+id/districtspinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="15dp"
+         android:background="@drawable/spinner_style"
+        />
+
+        <Spinner
+            android:layout_marginTop="20dp"
+            android:id="@+id/thanaspinner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="15dp"
+            android:background="@drawable/spinner_style"
+
+            />
+
+        <Spinner
+            android:layout_marginTop="20dp"
+            android:id="@+id/unionspinner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="15dp"
+            android:background="@drawable/spinner_style"
+
+            />
+
+
+
+        <EditText
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="জন্ম তারিখ"
+            android:background="@drawable/edit_text_backgound"
+            android:padding="15dp"
+            android:id="@+id/date"
+            />
+
+
+
+        <DatePicker
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/datepicker"
+            android:visibility="gone"
+            />
+
+
+
+
+
+        <EditText
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="পাসওয়ার্ড"
+            android:background="@drawable/edit_text_backgound"
+            android:padding="15dp"
+            android:inputType="textPassword"
+             android:id="@+id/password"
+            />
+
+
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="পুনরায় পাসওয়ার্ড"
+        android:background="@drawable/edit_text_backgound"
+        android:padding="15dp"
+        android:inputType="textPassword"
+         android:id="@+id/repeatpassword"
+        />
+
+
+
+
+
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/button_style"
+        android:text="সাবমিট"
+        android:id="@+id/button"
+
+        />
+
+<!--        <ProgressBar-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:id="@+id/pros"-->
+<!--            -->
+
+<!--            />-->
+
+    </LinearLayout>
+    </ScrollView>
